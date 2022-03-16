@@ -42,7 +42,7 @@
             android:text="+1"
             />
 
-        <!-- Row button -->
+        <!-- Substract button -->
         <Button
             android:id="@+id/substractButton"
             android:layout_marginLeft="15dp"
