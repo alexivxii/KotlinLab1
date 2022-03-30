@@ -47,8 +47,8 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        val buttonClick = findViewById<Button>(R.id.newPageButton)
-        buttonClick.setOnClickListener {
+        val buttonNewPage = findViewById<Button>(R.id.newPageButton)
+        buttonNewPage.setOnClickListener {
             val intent = Intent(this, NewPage::class.java)
             startActivity(intent)
         }
